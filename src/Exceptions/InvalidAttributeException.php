@@ -1,12 +1,12 @@
 <?php
-namespace Exceptions;
+namespace MianMuhammad\Exceptions;
 
 use Exception;
 
 /**
  * Class InvalidAttributeException
  *
- * @package Exceptions
+ * @package MianMuhammad\Exceptions
  */
 class InvalidAttributeException extends Exception
 {

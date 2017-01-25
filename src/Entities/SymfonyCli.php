@@ -6,9 +6,9 @@ use Symfony\Component\Console\Formatter\OutputFormatter;
 use Symfony\Component\Console\Output\ConsoleOutput;
 
 /**
- * Class Console
+ * Class SymfonyCli
  *
- * @package AutoOne\Entity
+ * @package MianMuhammad\Atm\Entities
  */
 class SymfonyCli implements ConsoleInterface
 {

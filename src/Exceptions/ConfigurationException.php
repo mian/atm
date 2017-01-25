@@ -1,5 +1,5 @@
 <?php
-namespace Exceptions;
+namespace MianMuhammad\Exceptions;
 
 
 use Exception;
@@ -7,7 +7,7 @@ use Exception;
 /**
  * Class ConfigurationException
  *
- * @package Exceptions
+ * @package MianMuhammad\Exceptions
  */
 class ConfigurationException extends Exception
 {

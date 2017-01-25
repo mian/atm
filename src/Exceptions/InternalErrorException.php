@@ -1,12 +1,12 @@
 <?php
-namespace Exceptions;
+namespace MianMuhammad\Exceptions;
 
 use Exception;
 
 /**
  * Class InternalErrorException
  *
- * @package Exceptions
+ * @package MianMuhammad\Exceptions
  */
 class InternalErrorException extends Exception
 {

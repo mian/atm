@@ -1,12 +1,12 @@
 <?php
-namespace Exceptions;
+namespace MianMuhammad\Exceptions;
 
 use Exception;
 
 /**
  * Class BadMethodCallException
  *
- * @package Exceptions
+ * @package MianMuhammad\Exceptions
  */
 class BadMethodCallException extends Exception
 {
