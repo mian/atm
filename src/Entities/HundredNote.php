@@ -2,6 +2,8 @@
 
 namespace MianMuhammad\Atm\Entities;
 
+use MianMuhammad\Atm\Contracts\Note;
+
 /**
  * Class HundredNote
  *

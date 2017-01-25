@@ -1,6 +1,6 @@
 <?php
 
-namespace MianMuhammad\Atm\Entities;
+namespace MianMuhammad\Atm\Contracts;
 
 /**
  * Interface Note
