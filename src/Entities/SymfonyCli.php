@@ -1,7 +1,7 @@
 <?php
 namespace MianMuhammad\Atm\Entities;
 
-use MianMuhammad\Explorer\Contracts\ConsoleInterface;
+use MianMuhammad\Atm\Contracts\ConsoleInterface;
 use Symfony\Component\Console\Formatter\OutputFormatter;
 use Symfony\Component\Console\Output\ConsoleOutput;
 

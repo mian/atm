@@ -1,5 +1,5 @@
 {
-  "name": "mianMuhammad/atm-machine",
+  "name": "mianMuhammad/atm",
   "description": "Atm Machine which allowd you to withdraw the cash in different denominations",
   "license": "MIT",
   "type": "project",
@@ -12,7 +12,7 @@
   },
   "autoload": {
     "psr-4": {
-      "MianMuhammad\\Atm-Machine\\": "src/"
+      "MianMuhammad\\Atm\\": "src/"
     }
   },
   "autoload-dev": {

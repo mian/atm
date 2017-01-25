@@ -1,9 +1,8 @@
 <?php
 
-namespace AppCode\NoteBox;
+namespace MianMuhammad\Atm\AtmBox;
 
 use MianMuhammad\Atm\Entities\TenNote;
-use MianMuhammad\AtmBox\AbstractAtmBox;
 
 /**
  * Class TenNoteAtmBox

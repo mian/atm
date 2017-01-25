@@ -1,6 +1,6 @@
 <?php
 
-namespace MianMuhammad\AtmBox;
+namespace MianMuhammad\Atm\AtmBox;
 
 use MianMuhammad\Atm\Contracts\AtmBox;
 use MianMuhammad\Atm\Response\AtmMachineResponse;
@@ -49,8 +49,9 @@ abstract class AbstractAtmBox implements AtmBox
 
     /**
      *
-     * @param \MianMuhammad\AtmBox\AbstractAtmBox $noteBox
+     * @param \MianMuhammad\Atm\AtmBox\AbstractAtmBox $noteBox
      *
+     * @return mixed|void
      */
     public function SetNextNoteBox(AbstractAtmBox $noteBox)
     {

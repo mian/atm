@@ -3,7 +3,7 @@
 namespace MianMuhammad\Atm\Contracts;
 
 use MianMuhammad\Atm\Response\AtmMachineResponse;
-use MianMuhammad\AtmBox\AbstractAtmBox;
+use MianMuhammad\Atm\AtmBox\AbstractAtmBox;
 
 /**
  * Interface AtmBox
@@ -20,6 +20,8 @@ interface AtmBox
     public function HandleRequest(AtmMachineResponse &$request);
 
     /**
+     * @param \MianMuhammad\Atm\AtmBox\AbstractAtmBox $atmBox
+     *
      * @return mixed
      */
     public function SetNextNoteBox(AbstractAtmBox $atmBox);
