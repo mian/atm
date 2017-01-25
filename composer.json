@@ -1,0 +1,23 @@
+{
+  "name": "mianMuhammad/atm-machine",
+  "description": "Atm Machine which allowd you to withdraw the cash in different denominations",
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "php": ">=7.0",
+    "symfony/console": "~2.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "MianMuhammad\\Atm-Machine\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MianMuhammad\\Tests\\": "tests/"
+    }
+  }
+}
