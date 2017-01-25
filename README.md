@@ -17,8 +17,12 @@ git@github.com:mianmohammad/atm.git
 composer install
 ```
 
-To start the Explorer you need to run 
+To start the Atm you need to run 
 
 ```
 php index.php
 ```
+
+Please check the video for the demo 
+
+![Explorer Gif Demo](https://media.giphy.com/media/26gsrlADdQxtrzlmw/giphy.gif "Atm Gif Demo")
