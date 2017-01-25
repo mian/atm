@@ -6,9 +6,9 @@ use MianMuhammad\Atm\AtmBox\FiftyNoteAtmBox;
 use MianMuhammad\Atm\AtmBox\HundredNoteAtmBox;
 use MianMuhammad\Atm\AtmBox\TenNoteAtmBox;
 use MianMuhammad\Atm\AtmBox\TwentyNoteAtmBox;
+use MianMuhammad\Atm\Exceptions\NotAvailableException;
 use MianMuhammad\Atm\Request\AtmMachineRequest;
 use MianMuhammad\Atm\Response\AtmMachineResponse;
-use MianMuhammad\Exceptions\NotAvailableException;
 
 class AtmCashMachine
 {
@@ -41,13 +41,14 @@ class AtmCashMachine
      * @param \MianMuhammad\Atm\Request\AtmMachineRequest $request
      *
      * @return array
-     * @throws \MianMuhammad\Exceptions\NotAvailableException
+     * @throws \MianMuhammad\Atm\Exceptions\NotAvailableException
      *
      */
     public function WithdrawCash(AtmMachineRequest $request)
     {
         $typedAmount = intval($request->GetAmount());
-        if ($typedAmount < 0) {
+
+        if ($typedAmount <= 0) {
             throw new \InvalidArgumentException("Amount must be greater than zero");
         } else {
             $response = new AtmMachineResponse($typedAmount);

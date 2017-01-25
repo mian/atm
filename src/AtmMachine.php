@@ -64,5 +64,6 @@ class AtmMachine extends command
             $console->print('$ ' . $note);
         }
 
+        $console->heading('Thank you for choosing us');
     }
 }

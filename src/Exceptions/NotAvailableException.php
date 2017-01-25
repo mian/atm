@@ -1,12 +1,12 @@
 <?php
-namespace MianMuhammad\Exceptions;
+namespace MianMuhammad\Atm\Exceptions;
 
 use Exception;
 
 /**
  * Class NotAvailableException
  *
- * @package MianMuhammad\Exceptions
+ * @package MianMuhammad\Atm\Exceptions
  */
 class NotAvailableException extends Exception
 {
